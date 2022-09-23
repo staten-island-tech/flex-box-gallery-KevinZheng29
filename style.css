@@ -2,24 +2,55 @@ html, body, *{
 padding: 0;
 margin: 0;
 box-sizing: border-box;
+font-size: 62.5%;
 }
+.Heading{
+    text-align: center;
+    font-size: 5rem;
 
-.one{
-    border: 3px solid black;
-    width: 20vw;
-    padding-bottom: 20vw;
+}
+.Parent{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-around;
     
 }
-.two{
+
+.Child{
     border: 3px solid black;
-    width: 20vw;
+    padding-bottom: 16vw;
+    padding-right: 15vh;
+    font-size: 5rem;
+    width: 20%;
+    background-image: url(https://www.nasa.gov/sites/default/files/cygx1_ill.jpg);
+    background-size: cover;
+    
 }
-.three{
-    border: 3px solid black;
-    width: 20vw;
-}
-.Card{
+
+.Parent2{
+    margin-top: 4rem;
     display: flex;
-    text-align: center;
     justify-content: space-around;
+}
+.Child2{
+    border: 3px solid black;
+    padding-bottom: 16vw;
+    padding-right: 15vh;
+    font-size: 5rem;
+    width: 20%;
+    
+}
+
+.Parent3{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Child3{
+    border: 3px solid black;
+    padding-bottom: 16vw;
+    padding-right: 15vh;
+    font-size: 5rem;
+    width: 20%;
 }
