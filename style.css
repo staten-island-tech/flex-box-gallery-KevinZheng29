@@ -16,7 +16,7 @@ font-size: 62.5%;
     
 }
 
-.Child{
+.Child1{
     border: 3px solid black;
     padding-bottom: 16vw;
     padding-right: 15vh;
@@ -27,27 +27,94 @@ font-size: 62.5%;
     
 }
 
-.Parent2{
-    margin-top: 4rem;
-    display: flex;
-    justify-content: space-around;
-}
 .Child2{
     border: 3px solid black;
     padding-bottom: 16vw;
     padding-right: 15vh;
     font-size: 5rem;
     width: 20%;
+    background-image: url(https://ze-robot.com/images/ne/nebula-1920-1080-1920%C3%971080.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.Child3{
+    border: 3px solid black;
+    padding-bottom: 16vw;
+    padding-right: 15vh;
+    font-size: 5rem;
+    width: 20%;
+    background-image: url(https://wallpapercave.com/wp/wp6948718.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Parent2{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.P2Child1{
+    border: 3px solid black;
+    padding-bottom: 16vw;
+    padding-right: 15vh;
+    font-size: 5rem;
+    width: 20%;
+    background-image: url(https://images.fineartamerica.com/images-medium-large-5/butterfly-nebula-nasaesastsciscience-photo-library.jpg);
+    background-size: cover;
+}
+
+.P2Child2{
+    border: 3px solid black;
+    padding-bottom: 16vw;
+    padding-right: 15vh;
+    font-size: 5rem;
+    width: 20%;
+    background-image: url(https://hackaday.com/wp-content/uploads/2021/03/black-hole.jpeg);
+    background-position: center;
+    background-size: cover;
     
+}
+
+.P2Child3{
+    border: 3px solid black;
+    padding-bottom: 16vw;
+    padding-right: 15vh;
+    font-size: 5rem;
+    width: 20%;
+    background-image: url(https://consciouscalendars.com/wp-content/uploads/2017/09/3D-sun.jpg);
+    background-size: cover;
 }
 
 .Parent3{
     margin-top: 4rem;
+    margin-bottom: 8rem;
     display: flex;
     justify-content: space-around;
     
 }
-.Child3{
+
+.P3Child1{
+    border: 3px solid black;
+    padding-bottom: 16vw;
+    padding-right: 15vh;
+    font-size: 5rem;
+    width: 20%;
+    background-image: url(https://cdn.filestackcontent.com/resize=w:1860/quality=v:75/auto_image/compress/HUtLlWu3RbwHGO9DT0Uq);
+    background-size: cover;
+}
+
+.P3Child2{
+    border: 3px solid black;
+    padding-bottom: 16vw;
+    padding-right: 15vh;
+    font-size: 5rem;
+    width: 20%;
+    
+    background-size: cover;
+}
+
+.P3Child3{
     border: 3px solid black;
     padding-bottom: 16vw;
     padding-right: 15vh;
