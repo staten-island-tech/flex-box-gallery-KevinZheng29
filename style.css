@@ -36,6 +36,8 @@ background-color: rgb(202, 220, 236);
 .Text{
     font-size: 2rem;
     background-color: white;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 .IMG1{
