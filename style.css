@@ -98,3 +98,13 @@ background-color: rgb(129, 129, 129);
     background-size: cover;
     height: 450px;
 }
+
+
+.Child:hover{
+    transform: scale(1.1);
+}
+
+.Heading:hover{
+    transform: scale(1.1);
+    transition: all 0.4s;
+}
