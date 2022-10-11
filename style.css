@@ -102,9 +102,6 @@ background-color: rgb(129, 129, 129);
 
 .Child:hover{
     transform: scale(1.1);
+    transition: all 1.5s;
 }
 
-.Heading:hover{
-    transform: scale(1.1);
-    transition: all 0.4s;
-}
