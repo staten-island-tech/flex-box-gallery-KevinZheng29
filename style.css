@@ -3,21 +3,61 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 font-size: 62.5%;
-background-color: rgb(129, 129, 129);
+}
+.Body{
+    background-image: url(https://wallpapershome.com/images/wallpapers/nebula-3840x2160-space-stars-4k-6592.jpg);
+    background-size: cover;
 }
 
-
-.Heading{
-    text-align: center;
-    color: white;
-    font-size: 70px;
+.H1{
     background-image: url(http://wallsdesk.com/wp-content/uploads/2016/09/Space-for-desktop.jpg);
     background-size: cover;
     height: 30rem;
     margin-bottom: 10rem;
-    margin-top: 5rem;
     border: 7px solid black;
+    animation: Picture 20s infinite;
+}
+
+@keyframes Picture{
+    20%{
+        background-image: url(https://magazineclonerepub.blob.core.windows.net/mcepub/3165/212599/image/507e1e2c-905a-407a-980d-0c68465a680f.jpg);
+    }
+    40%{
+        background-image: url(https://www.newscientist.nl/assets/ThinkstockPhotos-584484540-1080x1080.jpg);
+    }
+    60%{
+        background-image: url(https://cdn.filestackcontent.com/resize=w:1860/quality=v:75/auto_image/compress/HUtLlWu3RbwHGO9DT0Uq);
+    }
+    80%{
+        background-image: url(https://cdn.wallpapersafari.com/36/10/QX7u1v.jpg);
+    }
+    100%{
+        background-image: url(https://s1.ibtimes.com/sites/www.ibtimes.com/files/styles/embed/public/2019/03/04/whirlpool-galaxy.jpg);
+    }
+}
+
+.Heading{
+    text-align: center;
+    color: white;
+    font-size: 100px;
     font-style: italic;
+    animation: heading 5s;
+}
+
+@keyframes heading {
+    0%{
+font-size: 75px;
+    }
+    100%{
+        font-size: 100px;
+    }
+}
+
+.Subheading{
+    text-align: right;
+    font-size: 45px;
+    margin-top: 20px;
+    color: white;
 }
 
 
