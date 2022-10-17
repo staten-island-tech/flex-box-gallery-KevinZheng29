@@ -55,7 +55,7 @@ font-size: 75px;
 
 .Subheading{
     text-align: right;
-    font-size: 45px;
+    font-size: 35px;
     margin-top: 20px;
     color: white;
 }
@@ -63,6 +63,8 @@ font-size: 75px;
 
 .Parent{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 4rem;
 }
@@ -167,3 +169,9 @@ font-size: 75px;
     transform: translateX(5rem);
     transition: 2s;
 }
+
+@media screen and (max-width 900px) {
+
+
+
+    }
