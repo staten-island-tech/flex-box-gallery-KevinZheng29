@@ -81,7 +81,7 @@ font-size: 75px;
     font-size: 4rem;
     background-color: white;
     text-align: center;
-    border: 3px solid black;
+    border: 5px solid black;
 }
 
 .Text{
@@ -170,8 +170,7 @@ font-size: 75px;
     transition: 2s;
 }
 
-@media screen and (max-width 900px) {
 
 
 
-    }
+    
