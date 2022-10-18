@@ -170,7 +170,11 @@ font-size: 75px;
     transition: 2s;
 }
 
-
+@media screen and (max-width: 900px) {
+    .Parent{
+        width: 80%;
+    }
+}
 
 
     
